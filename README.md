@@ -13,13 +13,13 @@ English
 # Dataset description
 Every UCL winner is described by this set of attributes.
 
-| <font size = "20">Attributtes </font>  | <font size = "20">Description </font>|
+| <font size = "20">Attributes </font>  | <font size = "20">Description </font>|
 | ----------------- | ----------- |
 | **club**              | Name of the club that won the Champions League title.       |
 | **city**              | Winning team home city                                      | 
 | **country**           | Winning team home country                                   |
 | **year**              | Year when the UCL final was played in                       | 
-| **final_stadium**     | Name of the stadium which hosted the inal                   |
+| **final_stadium**     | Name of the stadium which hosted the final                   |
 | **head_coach**        | Name of the winning team head coach                         | 
 | **captain**           | Name of the winning team captain                            |   
 | **final_match-up**    | Runners-up (team which lost the final)                      | 
@@ -34,7 +34,7 @@ Every player is described by these attributes.
 
 | <font size = "20">Attributtes </font>  | <font size = "20">Description </font>|
 | ----------------- | ----------- |
-| **name**              | Name of the player.      |
+| **name**              | Name of the player     |
 | **country**              | Players nationality   | 
 | **position**           | Players position        |
  
