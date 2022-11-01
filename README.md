@@ -11,7 +11,7 @@ Luka Balić
 English
 
 # Dataset description
-
+Every UCL winner is described by this set of attributes.
 
 | <font size = "20">Attributtes </font>  | <font size = "20">Description </font>|
 | ----------------- | ----------- |
@@ -48,8 +48,8 @@ Every coach is described by these attributes.
 
 
 # Open data 
-Data from the database can be exported to CSV and JSON type files. For this extraction there is a dedicated python scipt called export.py
+Data from the database can be exported to CSV and JSON type files. For this extraction there is a dedicated python script called export.py
 
-# License
+# Copyright information
 
 This data is under Creative Commons Zero v1.0 Universal
