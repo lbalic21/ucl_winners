@@ -32,7 +32,7 @@ Every UCL winner is described by this set of attributes.
 
 Every player is described by these attributes.
 
-| <font size = "20">Attributtes </font>  | <font size = "20">Description </font>|
+| <font size = "20">Attributes </font>  | <font size = "20">Description </font>|
 | ----------------- | ----------- |
 | **name**              | Name of the player     |
 | **country**              | Players nationality   | 
@@ -41,7 +41,7 @@ Every player is described by these attributes.
 
 Every coach is described by these attributes.
 
-| <font size = "20">Attributtes </font>  | <font size = "20">Description </font>|
+| <font size = "20">Attributes </font>  | <font size = "20">Description </font>|
 | ----------------- | ----------- |
 | **name**              | Name of the coach       |
 | **country**           | Coaches nationality     |
