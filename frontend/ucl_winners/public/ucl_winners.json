@@ -1,0 +1,431 @@
+[
+    {
+        "club": "FC Barcelona",
+        "city": "Barcelona",
+        "country": "Spain",
+        "year": 1992,
+        "final_stadium": "Wembley Stadium, London",
+        "head_coach": {
+            "name": "Johan Cruyff",
+            "country": "Netherlands"
+        },
+        "captain": {
+            "name": "Andoni Zubizarreta",
+            "country": "Spain",
+            "position": "Goalkeeper"
+        },
+        "final_match-up": "Unione Calcio Sampdoria",
+        "result": "0:1",
+        "scorers": [
+            {
+                "name": "Ronald Koeman",
+                "country": "Netherlands",
+                "position": "Defender"
+            }
+        ],
+        "final_attendance": 70827
+    },
+    {
+        "club": "Olympique de Marseille",
+        "city": "Marseille",
+        "country": "France",
+        "year": 1993,
+        "final_stadium": "Olympiastadion, Munich",
+        "head_coach": {
+            "name": "Fabio Capello",
+            "country": "Italy"
+        },
+        "captain": {
+            "name": "Didier Deschamps",
+            "country": "France",
+            "position": "Midfielder"
+        },
+        "final_match-up": "AC Milan",
+        "result": "1:0",
+        "scorers": [
+            {
+                "name": "Basile Boli",
+                "country": "France",
+                "position": "Defender"
+            }
+        ],
+        "final_attendance": 64400
+    },
+    {
+        "club": "AFC Ajax",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "year": 1995,
+        "final_stadium": "Ernst-Happel-Stadion, Vienna",
+        "head_coach": {
+            "name": "Louis van Gaal",
+            "country": "Netherlands"
+        },
+        "captain": {
+            "name": "Danny Blind",
+            "country": "Netherlands",
+            "position": "Defender"
+        },
+        "final_match-up": "AC Milan",
+        "result": "1:0",
+        "scorers": [
+            {
+                "name": "Patrick Kluivert",
+                "country": "Netherlands",
+                "position": "Striker"
+            }
+        ],
+        "final_attendance": 49730
+    },
+    {
+        "club": "Borussia Dortmund",
+        "city": "Dortmund",
+        "country": "Germany",
+        "year": 1997,
+        "final_stadium": "Olympiastadion, Munich",
+        "head_coach": {
+            "name": "Ottmar Hitzfeld",
+            "country": "Germany"
+        },
+        "captain": {
+            "name": "Matthias Sammer ",
+            "country": "Germany",
+            "position": "Defender"
+        },
+        "final_match-up": "Juventus",
+        "result": "3:1",
+        "scorers": [
+            {
+                "name": "Alessandro Del Piero",
+                "country": "Italy",
+                "position": "Striker"
+            },
+            {
+                "name": "Karl-Heinz Riedle",
+                "country": "Germany",
+                "position": "Striker"
+            },
+            {
+                "name": "Lars Ricken",
+                "country": "Germany",
+                "position": "Midfielder"
+            }
+        ],
+        "final_attendance": 59000
+    },
+    {
+        "club": "Manchester United",
+        "city": "Manchester",
+        "country": "England",
+        "year": 1999,
+        "final_stadium": "Camp Nou, Barcelona",
+        "head_coach": {
+            "name": "Sir Alex Ferguson",
+            "country": "Scotland"
+        },
+        "captain": {
+            "name": "Peter Schmeichel",
+            "country": "Denmark",
+            "position": "Goalkeeper"
+        },
+        "final_match-up": "FC Bayern Munich",
+        "result": "2:1",
+        "scorers": [
+            {
+                "name": "Mario Basler",
+                "country": "Germany",
+                "position": "Midfielder"
+            },
+            {
+                "name": "Teddy Sheringham",
+                "country": "England",
+                "position": "Striker"
+            },
+            {
+                "name": "Ole Gunnar Solskj\u00e6r",
+                "country": "Norway",
+                "position": "Striker"
+            }
+        ],
+        "final_attendance": 90245
+    },
+    {
+        "club": "FC Porto",
+        "city": "Porto",
+        "country": "Portual",
+        "year": 2004,
+        "final_stadium": "Arena AufSchalke, Gelsenkirchen",
+        "head_coach": {
+            "name": "Jose Murinho",
+            "country": "Portugal"
+        },
+        "captain": {
+            "name": "Jorge Costa",
+            "country": "Portugal",
+            "position": "Defender"
+        },
+        "final_match-up": "AS Monaco",
+        "result": "0:3",
+        "scorers": [
+            {
+                "name": "Carlos Alberto",
+                "country": "Brazil",
+                "position": "Midfielder"
+            },
+            {
+                "name": "Deco",
+                "country": "Portugal",
+                "position": "Midfielder"
+            },
+            {
+                "name": "Dmitri Alenichev",
+                "country": "Russia",
+                "position": "Striker"
+            }
+        ],
+        "final_attendance": 53053
+    },
+    {
+        "club": "AC Milan",
+        "city": "Milan",
+        "country": "Italy",
+        "year": 2007,
+        "final_stadium": "Olympic Stadium, Athens",
+        "head_coach": {
+            "name": "Carlo Ancelotti",
+            "country": "Italy"
+        },
+        "captain": {
+            "name": "Paolo Maldini",
+            "country": "Italy",
+            "position": "Defender"
+        },
+        "final_match-up": "Liverpool FC",
+        "result": "2:1",
+        "scorers": [
+            {
+                "name": "Filippo Inzaghi",
+                "country": "Italy",
+                "position": "Striker"
+            },
+            {
+                "name": "Dirk Kuyt",
+                "country": "Netherlands",
+                "position": "Striker"
+            }
+        ],
+        "final_attendance": 63000
+    },
+    {
+        "club": "FC Barcelona",
+        "city": "Barcelona",
+        "country": "Spain",
+        "year": 2009,
+        "final_stadium": "Stadio Olimpico, Rome",
+        "head_coach": {
+            "name": "Pep Guardiola",
+            "country": "Spain"
+        },
+        "captain": {
+            "name": "Carles Puyol",
+            "country": "Spain",
+            "position": "Defender"
+        },
+        "final_match-up": "Manchester United",
+        "result": "2:0",
+        "scorers": [
+            {
+                "name": "Lionel Messi",
+                "country": "Argentina",
+                "position": "Striker"
+            },
+            {
+                "name": "Samuel Etoo",
+                "country": "Cameroon",
+                "position": "Striker"
+            }
+        ],
+        "final_attendance": 62467
+    },
+    {
+        "club": "FC Internazionale Milan",
+        "city": "Milan",
+        "country": "Spain",
+        "year": 2010,
+        "final_stadium": "Santiago Bernab\u00e9u, Madrid",
+        "head_coach": {
+            "name": "Jose Murinho",
+            "country": "Portugal"
+        },
+        "captain": {
+            "name": "Mohamed Salah",
+            "country": "Egypt",
+            "position": "Striker"
+        },
+        "final_match-up": "FC Bayern Munich",
+        "result": "2:0",
+        "scorers": [
+            {
+                "name": "Diego Milito",
+                "country": "Argentina",
+                "position": "Striker"
+            }
+        ],
+        "final_attendance": 73490
+    },
+    {
+        "club": "FC Bayern Munich",
+        "city": "Munich",
+        "country": "Germany",
+        "year": 2013,
+        "final_stadium": "Wembley Stadium, London",
+        "head_coach": {
+            "name": "Jupp Heynckes",
+            "country": "Germany"
+        },
+        "captain": {
+            "name": "Philipp Lahm",
+            "country": "Germany",
+            "position": "Defender"
+        },
+        "final_match-up": "Borussia Dortmund",
+        "result": "2:1",
+        "scorers": [
+            {
+                "name": "\u0130lkay G\u00fcndo\u011fan",
+                "country": "Germany",
+                "position": "Midfielder"
+            },
+            {
+                "name": "Mario Mand\u017euki\u0107",
+                "country": "Croatia",
+                "position": "Striker"
+            },
+            {
+                "name": "Arjen Robben",
+                "country": "Netherlands",
+                "position": "Striker"
+            }
+        ],
+        "final_attendance": 86298
+    },
+    {
+        "club": "Real Madrid CF",
+        "city": "Madrid",
+        "country": "Spain",
+        "year": 2018,
+        "final_stadium": "NSC Olimpiyskiy Stadium, Kyiv",
+        "head_coach": {
+            "name": "Zinedine Zidane",
+            "country": "France"
+        },
+        "captain": {
+            "name": "Sergio Ramos",
+            "country": "Spain",
+            "position": "Defender"
+        },
+        "final_match-up": "Liverpool FC",
+        "result": "3:1",
+        "scorers": [
+            {
+                "name": "Karim Benzema",
+                "country": "France",
+                "position": "Striker"
+            },
+            {
+                "name": "Gareth Bale",
+                "country": "Wales",
+                "position": "Striker"
+            },
+            {
+                "name": "Sadio Man\u00e9",
+                "country": "Cameroon",
+                "position": "Striker"
+            }
+        ],
+        "final_attendance": 61561
+    },
+    {
+        "club": "Liverpool FC",
+        "city": "Liverpool",
+        "country": "England",
+        "year": 2019,
+        "final_stadium": "Metropolitano Stadium, Madrid",
+        "head_coach": {
+            "name": "J\u00fcrgen Klopp",
+            "country": "Germany"
+        },
+        "captain": {
+            "name": "Jordan Henderson",
+            "country": "England",
+            "position": "Midfielder"
+        },
+        "final_match-up": "Tottenham Hotspur FC",
+        "result": "2:0",
+        "scorers": [
+            {
+                "name": "Mohamed Salah",
+                "country": "Egypt",
+                "position": "Striker"
+            },
+            {
+                "name": "Divock Origi",
+                "country": "Belgium",
+                "position": "Striker"
+            }
+        ],
+        "final_attendance": 63272
+    },
+    {
+        "club": "FC Bayern Munich",
+        "city": "Munich",
+        "country": "Germany",
+        "year": 2020,
+        "final_stadium": "Est\u00e1dio da Luz, Lisbon",
+        "head_coach": {
+            "name": "Hansi Flick",
+            "country": "Germany"
+        },
+        "captain": {
+            "name": "Manuel Neuer",
+            "country": "Germany",
+            "position": "Goalkeeper"
+        },
+        "final_match-up": "Paris Saint-Germain FC",
+        "result": "0:1",
+        "scorers": [
+            {
+                "name": "Kingsley Coman",
+                "country": "France",
+                "position": "Striker"
+            }
+        ],
+        "final_attendance": 0
+    },
+    {
+        "club": "Chelsea FC",
+        "city": "London",
+        "country": "England",
+        "year": 2021,
+        "final_stadium": "Est\u00e1dio do Drag\u00e3o, Porto",
+        "head_coach": {
+            "name": "Thomas Tuchel",
+            "country": "Germany"
+        },
+        "captain": {
+            "name": "C\u00e9sar Azpilicueta",
+            "country": "Spain",
+            "position": "Defender"
+        },
+        "final_match-up": "Manchester City FC",
+        "result": "0:1",
+        "scorers": [
+            {
+                "name": "Kai Havertz",
+                "country": "Germany",
+                "position": "Midfielder"
+            }
+        ],
+        "final_attendance": 75000
+    }
+]

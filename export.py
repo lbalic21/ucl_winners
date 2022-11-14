@@ -10,11 +10,11 @@ connection = psycopg2.connect(user="postgres",
 cursor = connection.cursor()
 
 cursor.execute('''SELECT *
-FROM ucl_winners
+FROM uclWinner
 
-JOIN coaches ON ucl_winners.head_coach = coaches.id
-JOIN players capt ON ucl_winners.captain = capt.id
-JOIN players scor ON ucl_winners.scorers[1]= scor.id or ucl_winners.scorers[2]= scor.id or ucl_winners.scorers[3]= scor.id or ucl_winners.scorers[4]= scor.id''')
+JOIN coach ON uclWinner.head_coach = coach.id
+JOIN player capt ON uclWinner.captain = capt.id
+JOIN player scor ON uclWinner.scorers[1]= scor.id or uclWinner.scorers[2]= scor.id or uclWinner.scorers[3]= scor.id or uclWinner.scorers[4]= scor.id''')
 
 result = cursor.fetchall()
 final = []

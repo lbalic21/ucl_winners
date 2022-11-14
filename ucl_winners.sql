@@ -27,21 +27,21 @@ SET default_table_access_method = heap;
 -- Name: coaches; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.coaches (
+CREATE TABLE public.coach (
     name text,
     country text,
     id integer NOT NULL
 );
 
 
-ALTER TABLE public.coaches OWNER TO postgres;
+ALTER TABLE public.coach OWNER TO postgres;
 
 --
 -- TOC entry 210 (class 1259 OID 16407)
 -- Name: coaches_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
-CREATE SEQUENCE public.coaches_id_seq
+CREATE SEQUENCE public.coach_id_seq
     AS integer
     START WITH 1
     INCREMENT BY 1
@@ -50,7 +50,7 @@ CREATE SEQUENCE public.coaches_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.coaches_id_seq OWNER TO postgres;
+ALTER TABLE public.coach_id_seq OWNER TO postgres;
 
 --
 -- TOC entry 3376 (class 0 OID 0)
@@ -58,7 +58,7 @@ ALTER TABLE public.coaches_id_seq OWNER TO postgres;
 -- Name: coaches_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
-ALTER SEQUENCE public.coaches_id_seq OWNED BY public.coaches.id;
+ALTER SEQUENCE public.coach_id_seq OWNED BY public.coach.id;
 
 
 --
