@@ -31,12 +31,12 @@ public class PlayerResource {
         return new ResponseEntity<>(players, HttpStatus.OK);
     }
 
-    @GetMapping("/find/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Player> getPlayerById(@PathVariable("id") Integer id) {
         Player player = playerService.findPlayerById(id);
         return new ResponseEntity<>(player, HttpStatus.OK);
     }
-
+/*
     @PostMapping("/add")
     public ResponseEntity<Player> addPlayer(@RequestBody Player player) {
         Player newPlayer = playerService.addPlayer(player);
@@ -55,5 +55,5 @@ public class PlayerResource {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-
+*/
 }

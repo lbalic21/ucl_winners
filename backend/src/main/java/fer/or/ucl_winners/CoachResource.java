@@ -31,12 +31,12 @@ public class CoachResource {
         return new ResponseEntity<>(coaches, HttpStatus.OK);
     }
 
-    @GetMapping("/find/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Coach> getCoachById(@PathVariable("id") Integer id) {
         Coach coach = coachService.findCoachById(id);
         return new ResponseEntity<>(coach, HttpStatus.OK);
     }
-
+/*
     @PostMapping("/add")
     public ResponseEntity<Coach> addCoach(@RequestBody Coach coach) {
         Coach newCoach = coachService.addCoach(coach);
@@ -55,5 +55,5 @@ public class CoachResource {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-
+*/
 }

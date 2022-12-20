@@ -3,6 +3,7 @@ package fer.or.ucl_winners.service;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +29,11 @@ public class UclWinnerService {
     }
 
     public UclWinner addUclWinner(UclWinner uclWinner) {
-        //uclWinner.setId(Integer.valueOf(UUID.randomUUID()));
+        //System.out.println(uclWinner.toString());
+        Optional<UclWinner> winner = uclWinnerRepo.findByYear(uclWinner.getYear());
+        if(winner.isPresent()) {
+            throw new IllegalStateException("Already exists");
+        }
         return uclWinnerRepo.save(uclWinner);
     }
 
@@ -82,6 +87,10 @@ public class UclWinnerService {
     }
 
     public UclWinner updateUclWinner(UclWinner uclWinner) {
+        Optional<UclWinner> winner = uclWinnerRepo.findById(uclWinner.getId());
+        if(!winner.isPresent()) {
+            throw new IllegalStateException("Does not exist");
+        }
         return uclWinnerRepo.save(uclWinner);
     }
 
@@ -89,7 +98,12 @@ public class UclWinnerService {
        return uclWinnerRepo.findUclWinnerById(id).orElseThrow(() -> new PersonNotFoundExeption("UclWinner by id " + id + " was not found."));
     }   
 
-    public void deleteUclWinner(Integer id) {
-        uclWinnerRepo.deleteUclWinnerById(id);
+    public UclWinner deleteUclWinner(Integer id) {
+        Optional<UclWinner> winner = uclWinnerRepo.findById(id);
+        if(!winner.isPresent()) {
+            throw new IllegalStateException("Does not exist");
+        }
+        uclWinnerRepo.deleteById(id);
+        return winner.get();
     }
 }

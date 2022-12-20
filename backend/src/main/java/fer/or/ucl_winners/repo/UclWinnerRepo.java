@@ -12,6 +12,7 @@ import fer.or.ucl_winners.model.UclWinner;
 public interface UclWinnerRepo extends JpaRepository<UclWinner, Integer> {
     public void deleteUclWinnerById(Integer id);
     public Optional<UclWinner> findUclWinnerById(Integer id);
+    public Optional<UclWinner> findByYear(Integer year);
     public List<UclWinner> findByClubContainingIgnoreCase(String value);
     public List<UclWinner> findByCityContainingIgnoreCase(String value);
     public List<UclWinner> findByCountryContainingIgnoreCase(String value);
