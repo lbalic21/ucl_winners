@@ -44,7 +44,26 @@ const Datatable:React.FC = () => {
     })}, [searchText, selectAttribute]);
 
     return(
+      
         <>
+        <div className="readme" > 
+		<h4>About</h4>
+		<p>Collection of UEFA Champions League winners.</p>
+    <h4>Author</h4>
+		<p>Luka Balić</p>
+    <h4>Version 1.0</h4>
+		<p>Luka Balić</p>
+    <h4>Language</h4>
+		<p>English</p>
+    <h4>Copyright information</h4>
+		<p>This data is under Creative Commons Zero v1.0 Universal</p>
+    <h4>Download full csv</h4>
+    <a href="./ucl_winners.csv" download>ucl_winners.csv</a>
+    <h4>Download full json</h4>
+    <a href="./ucl_winners.json" download>ucl_winners.json</a>
+	</div>
+
+        
         <input type="search" id="site-search" name="q" onChange={(event) => setSearchText(event.target.value)}></input>
         <button
         className={showDropDown ? "active" : undefined}

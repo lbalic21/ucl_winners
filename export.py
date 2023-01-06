@@ -9,14 +9,21 @@ connection = psycopg2.connect(user="postgres",
                               database="champions_league_winners")
 cursor = connection.cursor()
 
-cursor.execute('''SELECT *
-FROM uclWinner
 
-JOIN coach ON uclWinner.head_coach = coach.id
-JOIN player capt ON uclWinner.captain = capt.id
-JOIN player scor ON uclWinner.scorers[1]= scor.id or uclWinner.scorers[2]= scor.id or uclWinner.scorers[3]= scor.id or uclWinner.scorers[4]= scor.id''')
+cursor.execute('''UPDATE ucl_winner 
+        SET scorers='{3}'
+        WHERE scorers is null''')
+
+
+cursor.execute('''SELECT *
+FROM ucl_winner
+
+JOIN coach ON ucl_winner.head_coach = coach.id
+JOIN player capt ON ucl_winner.captain = capt.id
+JOIN player scor ON ucl_winner.scorers[1]= scor.id or ucl_winner.scorers[2]= scor.id or ucl_winner.scorers[3]= scor.id or ucl_winner.scorers[4]= scor.id''')
 
 result = cursor.fetchall()
+
 final = []
 for r in result :
     temp = []
@@ -68,7 +75,6 @@ for c in to_csv_temp :
                 temp.append(player[1])
                 temp.append(player[2])
     to_csv.append(temp)
-
 with open('ucl_winners.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerows(to_csv)
